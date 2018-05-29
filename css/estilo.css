@@ -1,0 +1,66 @@
+.calculadora{
+    padding: 0px 160px;
+}
+.btn-calc-menos{
+    border-radius: 10px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:azure;
+    background-color: red;
+    outline: 0 !important; 
+    margin-top: 30px; 
+    opacity: 0.3;   
+}
+
+.btn-calc-mais{
+    border-radius: 10px; 
+    size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:azure;
+    background-color: blue;
+    outline: 0 !important; 
+    margin-top: 30px; 
+    opacity: 0.3;   
+}
+
+.btn-calculo{
+    border-radius: 30px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:azure;
+    background-color: dimgray;
+    outline: 0 !important; 
+    margin-top: 30px;  
+}
+.foto-calculadora{
+    max-width: 300px;
+    margin-top: -40px;
+    margin-left: -90px;
+}
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:dimgray;
+}
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: dimgray;
+}
+#num1{
+    border-radius: 30px;
+    text-align: center;
+    outline: none;
+}
+#num2{
+    border-radius: 30px;
+    text-align: center;
+    outline: none;
+}
+.Message{
+    color: black;
+}
+
+button:active{
+    opacity: 1;
+}
+
+button:focus{
+    opacity: 1;
+}

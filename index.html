@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Adição de dois números</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <script src="js/calculo.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-12">
+            <header>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="titulo">
+                <center>
+                    <h1>C A L C U L A N D O</h1>
+                </center>
+            </div>
+        </div>
+        </header>
+
+    </div>
+    <br>
+    <div class="calculadora">
+        <div class="row" style="text-align: center;">
+            <div class="col-3">
+                <label>Primeiro número:</label>
+                <input type="text" size="22px" id="num1" placeholder="Digite o primeiro número" />
+            </div>
+            <div class="col-3" >
+                <button class="btn-calc-mais" type="button" onclick="calculoSoma()">+</button>
+                <button class="btn-calc-menos" type="button" onclick="calculoSubtracao()">-</button>
+            </div>
+            <div class="col-3">
+                <label>Segundo número:</label>
+                <input type="text" size="22px" id="num2" placeholder="Digite o segundo número">
+            </div>
+            <div class="col-3">
+                    <button class="btn btn-calculo" type="button" onclick="calculo()" class="btn">Calcular</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <center>
+    <div id="mensagem">
+        Aguardando Resultado
+    </div>
+</center>
+</body>
+
+</html>
